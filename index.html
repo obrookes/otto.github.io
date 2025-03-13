@@ -23,7 +23,9 @@ layout: null
     gtag('config', '{{ site.google_analytics }}');
   </script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
   <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
@@ -41,8 +43,8 @@ layout: null
       <div class="columns is-vcentered">
 
         <div class="column is-4">
-          <div class="portrait">
-            <img src="{{ '/images/portrait.jpg' | relative_url }}" />
+          <div class="column is-narrow portrait-column">
+            <img class="roundrect" src="{{ '/images/alt_portrait.jpg' | relative_url }}" />
           </div>
         </div>
 
@@ -68,11 +70,10 @@ layout: null
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Github</span>
               </a>
-
-              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
+              <!-- <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
                 <span class="icon"><i class="fab fa-twitter"></i></span>
                 <span>Twitter</span>
-              </a>
+              </a> -->
             </div>
 
           </div>
@@ -139,8 +140,8 @@ layout: null
             <div class="publication-venue">
               <span>{{ publication.venue }}</span>
               {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
-              {% endfor %}
+              <span class="publication-venue-emph">{{ award }}<span>
+                  {% endfor %}
             </div>
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
@@ -149,7 +150,8 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+              <a class="external-link button is-small is-ghost"
+                href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
@@ -190,7 +192,7 @@ layout: null
         <div class="column is-8">
           <div class="content">
             <p>
-              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
+              This website was adapted from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a>.
             </p>
           </div>
         </div>

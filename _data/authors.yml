@@ -1,106 +1,248 @@
-keunhong:
-  first_name: Keunhong
-  last_name: Park
-  website: https://keunhong.com
+otto:
+  first_name: Otto
+  last_name: Brookes
+  website: 
   is_me: true
-rmbrualla:
-  first_name: Ricardo
-  last_name: Martin-Brualla
-  website: https://ricardomartinbrualla.com
-smseitz:
-  first_name: Steven 
-  middle_name: M.
-  last_name: Seitz
-  website: https://smseitz.com
-ali:
-  first_name: Ali
-  last_name: Farhadi
-  website: https://homes.cs.washington.edu/~ali/
-krematas:
-  first_name: Kostas
-  last_name: Rematas
-  website: https://krematas.com
-barron:
-  first_name: Jonathan
-  middle_name: T.
-  last_name: Barron
-  website: https://jonbarron.info
-sofien:
-  first_name: Sofien
-  last_name: Bouaziz
-  website: http://sofienbouaziz.com/
-utsinh:
-  first_name: Utkarsh
-  last_name: Sinha
-  website: https://utkarshsinha.com/
-dgo:
-  first_name: Dan
-  middle_name: B
-  last_name: Goldman
-  website: https://www.danbgoldman.com/home/
-amousavian:
-  first_name: Arsalan
-  last_name: Mousavian
-  website: https://cs.gmu.edu/~amousavi/
-yux:
-  first_name: Yu
-  last_name: Xiang
-  website: https://yuxng.github.io/
-fox:
-  first_name: Dieter
-  last_name: Fox
-  website: https://homes.cs.washington.edu/~fox/
-chrisxie:
-  first_name: Christopher
-  last_name: Xie
-  website: https://chrisdxie.github.io/
-mtbr:
-  first_name: Matthew
-  middle_name: A.
-  last_name: Brown
-  website: http://matthewalunbrown.com/
-hedman:
-  first_name: Peter
-  last_name: Hedman
-  website: https://phogzone.com
-phenzler:
-  first_name: Philipp
-  last_name: Henzler
-  website: https://henzler.github.io
-bmild:
-  first_name: Ben
-  last_name: Mildenhall
-  website: https://bmild.github.io
-holynski:
-  first_name: Aleksander
-  last_name: Holynski
-  website: https://holynski.org
-pooleb:
-  first_name: Ben
-  last_name: Poole
-  website: https://poolio.github.io
-rundiwu:
-  first_name: Rundi
-  last_name: Wu
-  website: https://www.cs.columbia.edu/~rundi/
-ruiqigao:
-  first_name: Ruiqi
-  last_name: Gao
-  website: https://ruiqigao.github.io
-danielwatson:
-  first_name: Daniel
-  last_name: Watson
-  website: https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/
-pratuls:
-  first_name: Pratul
-  last_name: Srinivasan
-  website: https://pratulsrinivasan.github.io
-dorverbin:
-  first_name: Dor
-  last_name: Verbin
-  website: https://dorverbin.github.io
-xiaomingzhao:
-  first_name: Xiaoming
-  last_name: Zhao
-  website: https://xiaoming-zhao.com/
+
+majid:
+  first_name: Majid
+  last_name: Mirmehdi
+  website: 
+
+colleen:
+  first_name: Colleen
+  last_name: Stephens
+  website: 
+
+samuel:
+  first_name: Samuel
+  last_name: Angedakin
+  website: 
+
+katherine:
+  first_name: Katherine
+  last_name: Corogenes
+  website: 
+
+dervla:
+  first_name: Dervla
+  last_name: Dowd
+  website: 
+
+paula:
+  first_name: Paula
+  last_name: Dieguez
+  website: 
+
+thurston:
+  first_name: Thurston C.
+  last_name: Hicks
+  website: 
+
+sorrel:
+  first_name: Sorrel
+  last_name: Jones
+  website: 
+
+kevin_lee:
+  first_name: Kevin
+  last_name: Lee
+  website: 
+
+vera:
+  first_name: Vera
+  last_name: Leinert
+  website: 
+
+juan:
+  first_name: Juan
+  last_name: Lapuente
+  website: 
+
+maureen:
+  first_name: Maureen S.
+  last_name: McCarthy
+  website: 
+
+amelia:
+  first_name: Amelia
+  last_name: Meier
+  website: 
+
+mizuki:
+  first_name: Mizuki
+  last_name: Murai
+  website: 
+
+emmanuelle:
+  first_name: Emmanuelle
+  last_name: Normand
+  website: 
+
+virginie:
+  first_name: Virginie
+  last_name: Vergnes
+  website: 
+
+erin:
+  first_name: Erin G.
+  last_name: Wessling
+  website: 
+
+roman:
+  first_name: Roman M.
+  last_name: Wittig
+  website: 
+
+kevin_l:
+  first_name: Kevin
+  last_name: Langergraber
+  website: 
+
+nuria:
+  first_name: Nuria
+  last_name: Maldonado
+  website: 
+
+xinyu:
+  first_name: Xinyu
+  last_name: Yang
+  website: 
+
+klaus:
+  first_name: Klaus
+  last_name: Zuberbühler
+  website: 
+
+christophe:
+  first_name: Christophe
+  last_name: Boesch
+  website: 
+
+mimi:
+  first_name: Mimi
+  last_name: Arandjelovic
+  website: 
+
+hjalmar:
+  first_name: Hjalmar
+  last_name: Kühl
+  website: 
+
+tilo:
+  first_name: Tilo
+  last_name: Burghardt
+  website: 
+
+maksim:
+  first_name: Maksim
+  last_name: Kukushkin
+  website: 
+
+lukas:
+  first_name: Lukas
+  last_name: Boesch
+  website: 
+
+thomas:
+  first_name: Thomas
+  last_name: Schmid
+  website: 
+
+# smseitz:
+#   first_name: Steven 
+#   middle_name: M.
+#   last_name: Seitz
+#   website: https://smseitz.com
+# ali:
+#   first_name: Ali
+#   last_name: Farhadi
+#   website: https://homes.cs.washington.edu/~ali/
+# krematas:
+#   first_name: Kostas
+#   last_name: Rematas
+#   website: https://krematas.com
+# barron:
+#   first_name: Jonathan
+#   middle_name: T.
+#   last_name: Barron
+#   website: https://jonbarron.info
+# sofien:
+#   first_name: Sofien
+#   last_name: Bouaziz
+#   website: http://sofienbouaziz.com/
+# utsinh:
+#   first_name: Utkarsh
+#   last_name: Sinha
+#   website: https://utkarshsinha.com/
+# dgo:
+#   first_name: Dan
+#   middle_name: B
+#   last_name: Goldman
+#   website: https://www.danbgoldman.com/home/
+# amousavian:
+#   first_name: Arsalan
+#   last_name: Mousavian
+#   website: https://cs.gmu.edu/~amousavi/
+# yux:
+#   first_name: Yu
+#   last_name: Xiang
+#   website: https://yuxng.github.io/
+# fox:
+#   first_name: Dieter
+#   last_name: Fox
+#   website: https://homes.cs.washington.edu/~fox/
+# chrisxie:
+#   first_name: Christopher
+#   last_name: Xie
+#   website: https://chrisdxie.github.io/
+# mtbr:
+#   first_name: Matthew
+#   middle_name: A.
+#   last_name: Brown
+#   website: http://matthewalunbrown.com/
+# hedman:
+#   first_name: Peter
+#   last_name: Hedman
+#   website: https://phogzone.com
+# phenzler:
+#   first_name: Philipp
+#   last_name: Henzler
+#   website: https://henzler.github.io
+# bmild:
+#   first_name: Ben
+#   last_name: Mildenhall
+#   website: https://bmild.github.io
+# holynski:
+#   first_name: Aleksander
+#   last_name: Holynski
+#   website: https://holynski.org
+# pooleb:
+#   first_name: Ben
+#   last_name: Poole
+#   website: https://poolio.github.io
+# rundiwu:
+#   first_name: Rundi
+#   last_name: Wu
+#   website: https://www.cs.columbia.edu/~rundi/
+# ruiqigao:
+#   first_name: Ruiqi
+#   last_name: Gao
+#   website: https://ruiqigao.github.io
+# danielwatson:
+#   first_name: Daniel
+#   last_name: Watson
+#   website: https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/
+# pratuls:
+#   first_name: Pratul
+#   last_name: Srinivasan
+#   website: https://pratulsrinivasan.github.io
+# dorverbin:
+#   first_name: Dor
+#   last_name: Verbin
+#   website: https://dorverbin.github.io
+# xiaomingzhao:
+#   first_name: Xiaoming
+#   last_name: Zhao
+#   website: https://xiaoming-zhao.com/
 
