@@ -62,6 +62,30 @@
     - hjalmar
     - tilo
 
+- id: AppSpecificEval
+  title: "Towards Application-Specific Evaluation of Vision Models: Case Studies in Ecology and Biology"
+  venue: Computer Vision for Animals, 2025
+  description: ""
+  project_page: ""
+  arxiv: 2505.02825
+  image: cv4animals25.png
+  image_mouseover:
+  authors:
+    - alex_chan
+    - otto
+    - urs
+    - hemal
+    - iain
+    - majid
+    - noel
+    - emmanuelle
+    - christophe
+    - lukas
+    - mimi
+    - hjalmar
+    - tilo
+    - fumihiro
+
 - id: PanAf20k
   title: "PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition"
   venue: International Journal of Computer Vision, 2024
@@ -103,7 +127,7 @@
   title: "ChimpVLM: Ethogram-Enhanced Chimpanzee Behaviour Recognition"
   venue: Computer Vision & Pattern Recognition Workshops, 2024
   description: ""
-  project_page: https://obrookes.github.io/panaf.github.io/
+  project_page: ""
   arxiv: 2404.08937
   image: chimp_vlm.png
   image_mouseover: 
@@ -117,7 +141,7 @@
   title: "Triple-Stream Deep Metric Learning of Great Ape Behavioural Actions"
   venue: Computer Vision Theory and Applications, 2024
   description: ""
-  project_page: https://obrookes.github.io/panaf.github.io/
+  project_page: ""
   arxiv: 2301.02642
   image: triple_stream.png
   image_mouseover: 

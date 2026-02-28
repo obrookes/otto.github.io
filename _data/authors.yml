@@ -244,6 +244,39 @@ didac_suris:
   last_name: Suris
   website:
 
+alex_chan:
+  first_name: Alex
+  middle_name: Hoi Hang
+  last_name: Chan
+  website:
+
+urs:
+  first_name: Urs
+  last_name: Waldmann
+  website:
+
+hemal:
+  first_name: Hemal
+  last_name: Naik
+  website:
+
+iain:
+  first_name: Iain
+  middle_name: D
+  last_name: Couzin
+  website:
+
+noel:
+  first_name: Noël
+  middle_name: Adiko
+  last_name: Houa
+  website:
+
+fumihiro:
+  first_name: Fumihiro
+  last_name: Kano
+  website:
+
 # smseitz:
 #   first_name: Steven 
 #   middle_name: M.
