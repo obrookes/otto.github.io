@@ -1,3 +1,37 @@
+- id: SAFARI
+  title: "SA-FARI: Segment Anything in Footage of Animals for Recognition and Identification"
+  venue: Computer Vision & Pattern Recognition, 2026 (To appear)
+  description: ""
+  project_page: https://www.conservationxlabs.com/sa-fari
+  arxiv: 2511.15622
+  image: sa-fari.png
+  image_mouseover:
+  authors:
+    - dante
+    - otto
+    - maximillian_schall
+    - pablo
+    - chris_beirne
+    - tilo
+    - majid
+    - hjalmar
+    - mimi
+    - sam_pottie
+    - peter_bermant
+    - brandon_asheim
+    - yi_jin_toh
+    - adam_elzinga
+    - jason_holmberg
+    - andrew_whitworth
+    - eleanor_flatt
+    - laura_gustafson
+    - chaitanya_ryali
+    - yuan_ting_hu
+    - baishan_guo
+    - andrew_westbury
+    - kate_saenko
+    - didac_suris
+
 - id: PanAfFGBG
   title: "PanAfFGBG: Understanding the Impact of Backgrounds in Wildlife Behaviour Recognition"
   venue: Computer Vision & Pattern Recognition, 2025 (Best Paper Award Candidate & Oral Presentation)

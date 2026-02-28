@@ -23,9 +23,10 @@ name: Otto Brookes
 position: PhD Candidate 
 email: otto.brookes@bristol.ac.uk
 description: >-
-  I am a Machine Learning and Computer Vision PhD candidate at the University of Bristol
-  and a machine learning researcher at the Wild Chimpanzee Foundation. 
-  My passion lies in advancing computer vision research to tackle global challenges, especially the biodiversity crisis.
+  I am a Lecturer in AI and Animal Biometrics at the University of Bristol and
+  Lead Computer Vision Researcher at the Wild Chimpanzee Foundation. I am
+  co-organiser of the [International Workshop on Camera Traps, AI, and
+  Ecology](https://camtrapai.github.io/).
 baseurl: "/otto.github.io" # the subpath of your site, e.g. /blog
 url: "https://obrookes.github.io"
  # the base hostname & protocol for your site, e.g. http://example.com

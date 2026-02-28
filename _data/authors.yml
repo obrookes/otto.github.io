@@ -149,6 +149,101 @@ thomas:
   last_name: Schmid
   website: 
 
+dante:
+  first_name: Dante Francisco
+  last_name: Wasmuht
+  website:
+
+maximillian_schall:
+  first_name: Maximillian
+  last_name: Schall
+  website:
+
+pablo:
+  first_name: Pablo
+  last_name: Palencia
+  website:
+
+chris_beirne:
+  first_name: Chris
+  last_name: Beirne
+  website:
+
+sam_pottie:
+  first_name: Sam
+  last_name: Pottie
+  website:
+
+peter_bermant:
+  first_name: Peter
+  last_name: Bermant
+  website:
+
+brandon_asheim:
+  first_name: Brandon
+  last_name: Asheim
+  website:
+
+yi_jin_toh:
+  first_name: Yi Jin
+  last_name: Toh
+  website:
+
+adam_elzinga:
+  first_name: Adam
+  last_name: Elzinga
+  website:
+
+jason_holmberg:
+  first_name: Jason
+  last_name: Holmberg
+  website:
+
+andrew_whitworth:
+  first_name: Andrew
+  last_name: Whitworth
+  website:
+
+eleanor_flatt:
+  first_name: Eleanor
+  last_name: Flatt
+  website:
+
+laura_gustafson:
+  first_name: Laura
+  last_name: Gustafson
+  website:
+
+chaitanya_ryali:
+  first_name: Chaitanya
+  last_name: Ryali
+  website:
+
+yuan_ting_hu:
+  first_name: Yuan-Ting
+  last_name: Hu
+  website:
+
+baishan_guo:
+  first_name: Baishan
+  last_name: Guo
+  website:
+
+andrew_westbury:
+  first_name: Andrew
+  last_name: Westbury
+  website:
+
+kate_saenko:
+  first_name: Kate
+  last_name: Saenko
+  website:
+
+didac_suris:
+  first_name: Didac
+  last_name: Suris
+  website:
+
 # smseitz:
 #   first_name: Steven 
 #   middle_name: M.
@@ -245,4 +340,3 @@ thomas:
 #   first_name: Xiaoming
 #   last_name: Zhao
 #   website: https://xiaoming-zhao.com/
-
