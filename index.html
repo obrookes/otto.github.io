@@ -97,24 +97,8 @@ layout: null
           <div class="pub-body">
             <h3 class="pub-title">{% if href != "" %}<a href="{{ href }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
 
-            <p class="pub-authors">
-              {%- for author_id in publication.authors -%}
-              {%- assign author = site.data.authors[author_id] -%}
-              {%- assign full_name = author.first_name -%}
-              {%- if author.middle_name and author.middle_name != "" -%}
-                {%- assign full_name = full_name | append: " " | append: author.middle_name -%}
-              {%- endif -%}
-              {%- assign full_name = full_name | append: " " | append: author.last_name -%}
-              {%- if author.is_me -%}<strong>{{ full_name }}</strong>
-              {%- elsif author.website and author.website != "" -%}<a href="{{ author.website }}">{{ full_name }}</a>
-              {%- else -%}{{ full_name }}{%- endif -%}
-              {%- unless forloop.last %}, {% endunless -%}
-              {%- endfor -%}
-              {%- if publication.et_al %} et al.{% endif -%}
-            </p>
-
             <p class="pub-venue">{{ publication.venue }}
-              {%- for award in publication.awards %} <span class="badge">{{ award }}</span>{% endfor -%}
+              {%- for award in publication.awards %} <span class="badge">{% if award contains "Award" %}<i class="fas fa-trophy"></i>{% endif %}{{ award }}</span>{% endfor -%}
             </p>
 
             {% if publication.description and publication.description != "" %}
