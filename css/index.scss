@@ -56,7 +56,12 @@ p { margin: 0; }
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: 50% 12%;
+}
+
+.hero-portrait-frame {
+  overflow: hidden;
   border-radius: 6px;
+  aspect-ratio: 16 / 15;
 }
 
 @media (min-width: 960px) {
@@ -69,7 +74,7 @@ p { margin: 0; }
     display: block;
   }
   .hero-description { font-size: 0.95rem; line-height: 1.65; }
-  .hero-portrait { margin-bottom: 1.5rem; }
+  .hero-portrait-frame { margin-bottom: 1.5rem; }
   .hero-name { font-size: 1.9rem; }
   .hero-links {
     flex-direction: column;
@@ -241,7 +246,7 @@ p { margin: 0; }
 .pub-title {
   font-size: 1rem;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.35;
   margin: 0 0 0.1rem;
 
   a { color: $text; &:hover { color: $accent; } }
@@ -251,6 +256,7 @@ p { margin: 0; }
   font-size: 0.875rem;
   font-style: italic;
   color: $muted;
+  line-height: 1.45;
   margin-top: 0;
 }
 
@@ -258,7 +264,7 @@ p { margin: 0; }
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-top: 0.3rem;
+  margin-top: 0.15rem;
 }
 
 .pub-description {
@@ -289,7 +295,8 @@ p { margin: 0; }
 .pub-links {
   font-size: 0.85rem;
   color: $muted;
-  margin-top: 0.25rem;
+  line-height: 1.45;
+  margin-top: 0.12rem;
 }
 
 /* Footer */
@@ -321,7 +328,7 @@ p { margin: 0; }
     text-align: center;
     gap: 1.5rem;
   }
-  .hero-portrait { width: 200px; }
+  .hero-portrait-frame { width: 200px; }
   .hero-name { font-size: 1.9rem; }
   .hero-links { justify-content: center; }
 
