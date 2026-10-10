@@ -25,8 +25,9 @@ layout: null
 <body>
   <main class="page">
 
-    <!-- Hero -->
-    <header class="hero-block">
+    <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar hero-block">
       <img class="hero-portrait" src="{{ '/images/portrait.jpg' | relative_url }}" alt="Portrait of {{ site.name }}">
       <div class="hero-text">
         <h1 class="hero-name">{{ site.name }}</h1>
@@ -39,8 +40,9 @@ layout: null
           <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i><span>Email</span></a>
         </nav>
       </div>
-    </header>
+    </aside>
 
+    <div class="content">
     <!-- News -->
     {% assign news_limit = 6 %}
     {% assign news_count = site.data.news | size %}
@@ -144,6 +146,8 @@ layout: null
         {% endfor %}
       </div>
     </section>
+    </div>
+    </div>
 
   </main>
 
