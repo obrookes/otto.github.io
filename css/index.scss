@@ -254,6 +254,13 @@ p { margin: 0; }
   margin-top: 0;
 }
 
+.pub-awards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+}
+
 .pub-description {
   font-size: 0.875rem;
   color: $muted;
@@ -267,7 +274,6 @@ p { margin: 0; }
   font-weight: 600;
   line-height: 1;
   padding: 0.25rem 0.55rem;
-  margin-left: 0.25rem;
   border-radius: 999px;
   background: rgba($accent, 0.1);
   color: $accent;

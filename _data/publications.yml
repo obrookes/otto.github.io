@@ -6,6 +6,7 @@
   description: ""
   project_page: "https://www.conservationxlabs.com/sa-fari"
   arxiv: 2511.15622
+  press: https://www.bristol.ac.uk/news/2026/june/how-bristol-researchers-are-using-visual-ai-to-improve-wildlife-conservation.html
   image: sa-fari.png
   awards:
     - "Best Paper Award Candidate"
@@ -42,6 +43,7 @@
   venue_short: ECCV-W
   description: ""
   arxiv: 2607.17399
+  image: panaf_sbr.jpg
   authors:
     - maciej
     - otto
@@ -60,6 +62,7 @@
   venue_short: ECCV-W
   description: ""
   arxiv: 2607.17395
+  image: leprosy.jpg
   authors:
     - katie
     - anna_bowland
@@ -81,6 +84,7 @@
   venue_short: ICPR
   description: ""
   arxiv: 2601.22917
+  image: deep_jungle.jpg
   authors:
     - tom
     - otto
@@ -255,6 +259,7 @@
   venue_short: arXiv
   description: ""
   arxiv: 2407.16864
+  image: uav_imageomics.jpg
   authors:
     - jenna
     - maksim_kh
@@ -285,6 +290,7 @@
   venue_short: Frontiers
   description: ""
   doi: 10.3389/fvets.2022.886720
+  image: gorilla_enrichment.jpg
   authors:
     - otto
     - stuart
@@ -301,6 +307,7 @@
   venue_short: ICPR-W
   description: ""
   arxiv: 2012.04689
+  image: gorilla_faces.jpg
   authors:
     - otto
     - tilo

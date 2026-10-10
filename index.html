@@ -97,9 +97,15 @@ layout: null
           <div class="pub-body">
             <h3 class="pub-title">{% if href != "" %}<a href="{{ href }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
 
-            <p class="pub-venue">{{ publication.venue }}
-              {%- for award in publication.awards %} <span class="badge">{% if award contains "Award" %}<i class="fas fa-trophy"></i>{% endif %}{{ award }}</span>{% endfor -%}
-            </p>
+            <p class="pub-venue">{{ publication.venue }}</p>
+
+            {% if publication.awards and publication.awards.size > 0 %}
+            <div class="pub-awards">
+              {%- for award in publication.awards -%}
+              <span class="badge">{% if award contains "Award" %}<i class="fas fa-trophy"></i>{% endif %}{{ award }}</span>
+              {%- endfor -%}
+            </div>
+            {% endif %}
 
             {% if publication.description and publication.description != "" %}
             <p class="pub-description">{{ publication.description }}</p>
@@ -122,7 +128,10 @@ layout: null
                 {{ sep }}<a href="https://github.com/{{ publication.github }}">Code</a>{% assign sep = " &middot; " %}
               {%- endif -%}
               {%- if publication.doi and publication.doi != "" -%}
-                {{ sep }}<a href="https://doi.org/{{ publication.doi }}">DOI</a>
+                {{ sep }}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{% assign sep = " &middot; " %}
+              {%- endif -%}
+              {%- if publication.press and publication.press != "" -%}
+                {{ sep }}<a href="{{ publication.press }}"><i class="fas fa-newspaper"></i> Press release</a>
               {%- endif -%}
             </p>
           </div>
